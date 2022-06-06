@@ -6,7 +6,7 @@
 #' @param R The t*n matrix containing the return data.
 #' @param G The t*l matrix containing the factor proxies.
 #' @param K The number of factors you want to extract.
-#' @param S2 The m*m weight matrix getted from POET.
+#' @param s2 The m*m weight matrix getted from POET.
 #'
 #' @return The K extracted factors($Phi*G$)
 
