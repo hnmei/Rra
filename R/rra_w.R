@@ -1,7 +1,7 @@
 #' @title rra_w
 #'
 #' @description The implementation of reduced-rank approach with a changed weight
-#'              by Dashan Huang et al. (MS, 2022)
+#' by Dashan Huang et al. (MS, 2022)
 #'
 #' @param R The t*n matrix containing the return data.
 #' @param G The t*l matrix containing the factor proxies.

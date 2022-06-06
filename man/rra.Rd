@@ -24,8 +24,5 @@ The K extracted factors factors($Phi*G$)
 }
 \description{
 The main implementation of reduced-rank approach
-             by Dashan Huang et al. (MS, 2022)
-}
-\examples{
-data(r48)
+by Dashan Huang et al. (MS, 2022)
 }

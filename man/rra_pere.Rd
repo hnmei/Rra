@@ -19,6 +19,6 @@ rra_pere(R, G, K, alpha)
 The K extracted factors($Phi*G$)
 }
 \description{
-The implementation of reduced-rank approach with pricing error
-             restrictions by Dashan Huang et al. (MS, 2022)
+he implementation of reduced-rank approach with pricing error
+by Dashan Huang et al. (MS, 2022)
 }

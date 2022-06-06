@@ -20,5 +20,5 @@ The K extracted factors($Phi*G$)
 }
 \description{
 The implementation of reduced-rank approach with a changed weight
-             by Dashan Huang et al. (MS, 2022)
+by Dashan Huang et al. (MS, 2022)
 }

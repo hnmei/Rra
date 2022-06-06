@@ -1,7 +1,7 @@
 #' @title rra
 #'
 #' @description The main implementation of reduced-rank approach
-#'              by Dashan Huang et al. (MS, 2022)
+#' by Dashan Huang et al. (MS, 2022)
 #'
 #' @param R The t*(1+n) dataframe containing the return data with date.
 #'          Make sure that the date column is the first column.
