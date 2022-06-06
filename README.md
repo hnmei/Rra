@@ -1,7 +1,7 @@
 <!--
  * @Author: Haonan Mei
  * @Date: 2022-06-03 15:29:20
- * @LastEditTime: 2022-06-06 23:22:05
+ * @LastEditTime: 2022-06-06 23:26:15
  * @LastEditors: Haonan Mei
  * @Description: 
  * @FilePath: \undefinedd:\leslie\ra\taozeng\00_rra_to_r\working\Rra\README.md
@@ -18,6 +18,7 @@ devtools::install_github("LeslieMei/Rra")
 
 ## Data
 We provide two data sets:
+
 **"48_ports_ret_74-16.Rdata"**
 48 industry portfolios (516\*49 dataframe, the added one is date) as the example input of return data.
 
@@ -66,6 +67,6 @@ rra_w <- rra(
 
 ## References
 1. Dashan Huang et al. (MS 2022) Shrinking Factor Dimension A Reduced-Rank Approach
-2. Fan, Liao, and Mincheva (2013)Fan, J., Liao, Y., Mincheva, M., 2013. Large covariance estimation by thresholding principal orthogonal complements. Journal of the Royal Statistical Society. Series B (Statistical Methodology) 75, 603–680.
+2. Fan, J., Liao, Y., Mincheva, M., 2013. Large covariance estimation by thresholding principal orthogonal complements. Journal of the Royal Statistical Society. Series B (Statistical Methodology) 75, 603–680.
 
 
