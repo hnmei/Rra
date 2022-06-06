@@ -13,7 +13,7 @@ rra_w(R, G, K, s2)
 
 \item{K}{The number of factors you want to extract.}
 
-\item{S2}{The m*m weight matrix getted from POET.}
+\item{s2}{The m*m weight matrix getted from POET.}
 }
 \value{
 The K extracted factors($Phi*G$)

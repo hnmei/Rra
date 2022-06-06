@@ -2,3 +2,4 @@
 
 export(rra)
 importFrom(POET,"POET")
+importFrom(expm,"sqrtm")
