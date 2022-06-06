@@ -1,7 +1,7 @@
 <!--
  * @Author: Haonan Mei
  * @Date: 2022-06-03 15:29:20
- * @LastEditTime: 2022-06-06 23:26:15
+ * @LastEditTime: 2022-06-06 23:28:12
  * @LastEditors: Haonan Mei
  * @Description: 
  * @FilePath: \undefinedd:\leslie\ra\taozeng\00_rra_to_r\working\Rra\README.md
@@ -19,10 +19,10 @@ devtools::install_github("LeslieMei/Rra")
 ## Data
 We provide two data sets:
 
-**"48_ports_ret_74-16.Rdata"**
+**"48_ports_ret_74-16.Rdata":**
 48 industry portfolios (516\*49 dataframe, the added one is date) as the example input of return data.
 
-**"70_factor_proxies_74-16.Rdata"**
+**"70_factor_proxies_74-16.Rdata":**
 70 factor proxies (516\*71 dataframe, the added one is date) as the example input of factors.
 
 **`date` column is needed and if you use your own data, notice that put the `date` column at the first column.**
