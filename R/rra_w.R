@@ -1,17 +1,16 @@
-#' @title rra_main
+#' @title rra_w
 #'
-#' @description The main implementation of reduced-rank approach
+#' @description The implementation of reduced-rank approach with a changed weight
 #'              by Dashan Huang et al. (MS, 2022)
 #'
 #' @param R The t*n matrix containing the return data.
 #' @param G The t*l matrix containing the factor proxies.
 #' @param K The number of factors you want to extract.
+#' @param S2 The m*m weight matrix getted from POET.
 #'
-#' @return The K extracted factors factors($Phi*G$)
+#' @return The K extracted factors($Phi*G$)
 
-
-
-rra_main <- function(R, G, K) {
+rra_w <- function(R, G, K, s2) {
     # using R=a+BG+u to extract K factors
     # R: t*n, G: t*l
     # output: T*K factors with RRA
@@ -42,7 +41,7 @@ rra_main <- function(R, G, K) {
     alpha = t(alpha)
     u = R - x%*%t(alpha) - G%*%theta
     s1 = diag(diag(t(u)%*%u/t))
-    s2 = diag(diag(t(z)%*%z/t))
+    # s2 = diag(diag(t(z)%*%z/t)) # s2 is given.
 
     w1 = solve(s1)
     w2 = solve(s2)
