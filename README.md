@@ -13,7 +13,7 @@ R version implementation of the reduced-rank approach by Dashan Huang et al. (MS
 ## Install
 ```{R}
 library(devtools)
-devtools::install_github("HaonanMei/Rra")
+devtools::install_github("hnmei/Rra")
 ```
 
 ## Data
